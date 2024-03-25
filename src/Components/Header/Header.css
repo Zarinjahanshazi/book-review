@@ -1,0 +1,11 @@
+/* Custom CSS for Navbar */
+.navbar li a {
+    color: green;
+    border: 2px solid green;
+    margin-right: 16px;
+    border-radius: 8px;
+}
+
+.navbar li a:hover {
+    background-color: darkgreen;
+}

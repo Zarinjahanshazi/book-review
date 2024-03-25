@@ -1,0 +1,81 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://i.ibb.co/XVWxrgb/pngwing-1.png",
+      "review": "The Catcher in the Rye is a timeless coming-of-age novel that follows the journey of Holden Caulfield, a disillusioned teenager navigating the complexities of adolescence and societal expectations. Salinger's masterful storytelling delves deep into themes of alienation, identity, and the search for authenticity, making it a must-read for young adults seeking meaning in a chaotic world.",
+      "totalPages": 277,
+      "rating": 4.2,
+      "category": "Fiction",
+      "tags": ["Young Adult", "Identity"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "bookId": 2,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://i.ibb.co/XSznVsw/kindpng-5624060-1.png",
+      "review": "Harper Lee's To Kill a Mockingbird is a poignant exploration of racial injustice and moral growth in the American South. Through the eyes of Scout Finch, readers witness her father's heroic stand against prejudice and hatred in the trial of Tom Robinson. This classic novel remains as relevant today as it was upon its publication, captivating readers with its timeless message of empathy and courage.",
+      "totalPages": 281,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Young Adult", "Identity"],
+      "publisher": "J.B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": 3,
+      "bookName": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "image": "https://i.ibb.co/zNjKhT8/kindpng-2592315-1.png",
+      "review": "Suzanne Collins' The Hunger Games is a gripping dystopian tale set in a future where society's elite force children to fight to the death for entertainment. Through the eyes of Katniss Everdeen, readers experience themes of survival, sacrifice, and rebellion against tyranny. Collins' vivid world-building and compelling characters make this novel a thrilling and thought-provoking read for young adults and beyond.",
+      "totalPages": 374,
+      "rating": 4.3,
+      "category": "Science Fiction",
+      "tags": ["Young Adult", "Identity"],
+      "publisher": "Scholastic Corporation",
+      "yearOfPublishing": 2008
+    },
+    {
+      "bookId": 4,
+      "bookName": "The Fault in Our Stars",
+      "author": "John Green",
+      "image": "https://i.ibb.co/SPKRz2c/kindpng-4945926-1.png",
+      "review": "John Green's The Fault in Our Stars is a heart-wrenching tale of love and loss amidst the challenges of living with cancer. Through the eyes of Hazel Grace Lancaster, readers journey through the highs and lows of friendship, romance, and the pursuit of meaning in the face of mortality. Green's poignant prose and authentic characters make this novel a powerful exploration of the human condition.",
+      "totalPages": 313,
+      "rating": 4.4,
+      "category": "Young Adult",
+      "tags": ["Young Adult", "Identity"],
+      "publisher": "Dutton Books",
+      "yearOfPublishing": 2012
+    },
+    {
+      "bookId": 5,
+      "bookName": "The Perks of Being a Wallflower",
+      "author": "Stephen Chbosky",
+      "image": "https://i.ibb.co/W0kCgbY/kindpng-4022054-1.png",
+      "review": "Stephen Chbosky's The Perks of Being a Wallflower is a poignant coming-of-age novel that follows the introspective journey of Charlie as he navigates the complexities of adolescence, friendship, and mental health. Through Charlie's letters, readers are immersed in a world of raw emotion, self-discovery, and the quest for acceptance. Chbosky's intimate narrative resonates deeply with readers of all ages, making it a modern classic.",
+      "totalPages": 213,
+      "rating": 4.1,
+      "category": "Fiction",
+      "tags": ["Young Adult", "Identity"],
+      "publisher": "Pocket Books",
+      "yearOfPublishing": 1999
+    },
+    {
+      "bookId": 6,
+      "bookName": "The Outsiders",
+      "author": "S.E. Hinton",
+      "image": "https://i.ibb.co/DbzH1ww/kindpng-81724-1.png",
+      "review": "S.E. Hinton's The Outsiders is a timeless exploration of class conflict and adolescent identity in 1960s America. Through the eyes of Ponyboy Curtis, readers witness the struggles of rival gangs and the bonds of friendship that transcend societal barriers. Hinton's authentic portrayal of teenage life and universal themes of loyalty and belonging continue to resonate with readers of all ages, making this novel a classic in young adult literature.",
+      "totalPages": 192,
+      "rating": 4.6,
+      "category": "Young Adult",
+      "tags": ["Young Adult", "Identity"],
+      "publisher": "Viking Press",
+      "yearOfPublishing": 1967
+    }
+  ]
+  
