@@ -1,9 +1,9 @@
 [
     {
-      "bookId": 1,
+      "id": 1,
       "bookName": "The Catcher in the Rye",
       "author": "J.D. Salinger",
-      "image": "https://i.ibb.co/XVWxrgb/pngwing-1.png",
+      "image": "https://i.ibb.co/bB6qMVG/kindpng-2193744-1.png",
       "review": "The Catcher in the Rye is a timeless coming-of-age novel that follows the journey of Holden Caulfield, a disillusioned teenager navigating the complexities of adolescence and societal expectations. Salinger's masterful storytelling delves deep into themes of alienation, identity, and the search for authenticity, making it a must-read for young adults seeking meaning in a chaotic world.",
       "totalPages": 277,
       "rating": 4.2,
@@ -13,7 +13,7 @@
       "yearOfPublishing": 1951
     },
     {
-      "bookId": 2,
+      "id": 2,
       "bookName": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "image": "https://i.ibb.co/XSznVsw/kindpng-5624060-1.png",
@@ -26,7 +26,7 @@
       "yearOfPublishing": 1960
     },
     {
-      "bookId": 3,
+      "id": 3,
       "bookName": "The Hunger Games",
       "author": "Suzanne Collins",
       "image": "https://i.ibb.co/zNjKhT8/kindpng-2592315-1.png",
@@ -39,7 +39,7 @@
       "yearOfPublishing": 2008
     },
     {
-      "bookId": 4,
+      "id": 4,
       "bookName": "The Fault in Our Stars",
       "author": "John Green",
       "image": "https://i.ibb.co/SPKRz2c/kindpng-4945926-1.png",
@@ -52,7 +52,7 @@
       "yearOfPublishing": 2012
     },
     {
-      "bookId": 5,
+      "id": 5,
       "bookName": "The Perks of Being a Wallflower",
       "author": "Stephen Chbosky",
       "image": "https://i.ibb.co/W0kCgbY/kindpng-4022054-1.png",
@@ -65,7 +65,7 @@
       "yearOfPublishing": 1999
     },
     {
-      "bookId": 6,
+      "id": 6,
       "bookName": "The Outsiders",
       "author": "S.E. Hinton",
       "image": "https://i.ibb.co/DbzH1ww/kindpng-81724-1.png",
