@@ -10,8 +10,8 @@ const Book = ({book}) => {
 
             <div>
             <Link to={`/book/${id}`}>
-            <div className="card w-full h-[481px] rounded-2xl border-[#13131326] bg-base-100 shadow-xl">
-                <figure><img className="bg-[#F3F3F3]" src={image} alt="Shoes" /></figure>
+            <div className="card w-full h-[581px] rounded-2xl border-[#13131326] bg-base-100 shadow-xl">
+                <figure><img className="bg-[#F3F3F3] h-full rounded-3xl w-full p-2" src={image} alt="Shoes" /></figure>
                 <div className="card-body">
                     {/* <div>
                     tags.map(tag => <SingleTag tag={tag}></SingleTag>)
