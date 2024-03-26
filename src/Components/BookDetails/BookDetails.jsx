@@ -10,7 +10,7 @@ const BookDetails = () => {
     const {id} = useParams();
     const idInt = parseInt(id);
     const book = books.find(book => book.id === idInt);
-    console.log(book);
+    console.log(book.tags);
 
 
 
@@ -38,13 +38,17 @@ const BookDetails = () => {
                     <p className='border-b-2'></p>
                     <h1 className="py-4"><span className="font-bold text-base">Review:</span>{book.review}</h1>
 
-                    <h1 className="text-base font-bold py-4">tags</h1>
+                    
 
-                    {
-                        book.tags.map((tag,idx) => <p key={idx}></p>)
+                    <div className='flex'>
+                        <h1 className='flex gap-4 items-center'><span className="text-base font-bold py-4">Tags:</span>
+                        {
+                        book?.tags?.map((tag) => <p className='flex'><span><button className="btn rounded-[30px] text-[#23BE0A]  mr-3 radius-[30px]">#{tag}</button></span></p>)
                     }
+                        </h1>
+                    </div>
 
-                    <p className='border-b-2'></p>
+                    <p className='border-b-2 m-4'></p>
 
                     <div className="flex gap-10">
                         <div className="text-[#131313B2]">

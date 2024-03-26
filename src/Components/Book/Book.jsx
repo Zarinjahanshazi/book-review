@@ -13,12 +13,11 @@ const Book = ({book}) => {
             <div className="card w-full h-[581px] rounded-2xl border-[#13131326] bg-base-100 shadow-xl">
                 <figure><img className="bg-[#F3F3F3] h-full rounded-3xl w-full p-2" src={image} alt="Shoes" /></figure>
                 <div className="card-body">
-                    {/* {
-                       <div className="flex">
-                        <p>tags[0]</p> 
-                       <p>tags[1]</p>
-                       </div>
-                    } */}
+                <div className='flex'>
+                    {
+                        book?.tags?.map((tag) => <button className="btn rounded-[30px] text-[#23BE0A]  mr-3 radius-[30px]">{tag}</button>)
+                    }
+                    </div>
                     
                     <h2 className="card-title text-[#131313] font-bold text-2xl">{bookName}</h2>
                     <p className="text-[#131313CC] text-base font-medium">By: {author}</p>
