@@ -13,9 +13,13 @@ const Book = ({book}) => {
             <div className="card w-full h-[581px] rounded-2xl border-[#13131326] bg-base-100 shadow-xl">
                 <figure><img className="bg-[#F3F3F3] h-full rounded-3xl w-full p-2" src={image} alt="Shoes" /></figure>
                 <div className="card-body">
-                    {/* <div>
-                    tags.map(tag => <SingleTag tag={tag}></SingleTag>)
-                    </div> */}
+                    {/* {
+                       <div className="flex">
+                        <p>tags[0]</p> 
+                       <p>tags[1]</p>
+                       </div>
+                    } */}
+                    
                     <h2 className="card-title text-[#131313] font-bold text-2xl">{bookName}</h2>
                     <p className="text-[#131313CC] text-base font-medium">By: {author}</p>
                     <p className='border-b-2'></p>
