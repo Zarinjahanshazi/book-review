@@ -44,7 +44,7 @@ const ListedBooks = () => {
     <div>
       <div className='text-center'>
 
-        <div className='max-w-6xl h-[100px] rounded-2xl my-8 bg-[#1313130C]'>
+        <div className='max-w-6xl h-[100px] rounded-2xl my-8 bg-[#1313130C] '>
             <h2 className='text-[#131313] text-center py-8 font-bold text-2xl'>Books</h2>
 
         </div>

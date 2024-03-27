@@ -41,29 +41,11 @@ const PagesToRead = () => {
       //custom
   return (
     <div className='text-center mt-10'>
-      {/* <BarChart
-        width={500}
-        height={300}
-        data={chartData}
-        margin={{
-          top: 20,
-          right: 30,
-          left: 20,
-          bottom: 5,
-        }}
-      >
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
-        <YAxis />
-        <Tooltip />
-        <Bar dataKey="pages" fill="#8884d8" />
-      </BarChart> */}
-
-          {/* custom */}
-          
+      
+      <ResponsiveContainer width={1200} height={300}>
           <BarChart
-      width={1200}
-      height={300}
+      // width={1200}
+      // height={300}
       data={chartData}
       margin={{
         top: 20,
@@ -82,6 +64,7 @@ const PagesToRead = () => {
       </Bar>
     </BarChart>
     
+    </ResponsiveContainer>
 
 
 
