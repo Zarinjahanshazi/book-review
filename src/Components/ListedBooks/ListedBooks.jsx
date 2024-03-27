@@ -61,7 +61,7 @@ const ListedBooks = () => {
         </details>
       </div>
 
-      <h2>Books:{readBooks.length}</h2>
+      {/* <h2>Books:{readBooks.length}</h2> */}
       <Tabs>
         <TabList>
           <Tab>Read Books</Tab>

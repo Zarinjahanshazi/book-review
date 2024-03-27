@@ -12,7 +12,7 @@ const Banner = () => {
       <h1 className="text-5xl font-bold mr-10 text-[#131313] ">Books to freshen <br /> up your bookshelf</h1>
       
       <Link to='/listedBooks'>
-      <button className="btn my-12 rounded-lg text-white bg-[#23BE0A]">View The List</button>
+      <button className="btn lg:my-12 rounded-lg text-white bg-[#23BE0A]">View The List</button>
       </Link>
     </div>
   </div>

@@ -25,7 +25,7 @@ const BookDetails = () => {
     // console.log(id,books)
     return (
         <div className="mt-10">
-            <div className="grid lg:grid-cols-2 gap-10">
+            <div className="lg:grid lg:grid-cols-2 gap-10">
                 <div>
                         <img className="rounded-2xl w-[700px] h-[600px]" src={book.image} alt="" />
                 </div>

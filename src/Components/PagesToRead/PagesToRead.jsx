@@ -1,7 +1,7 @@
 // import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import { getDataFromLocalRead } from '../utility/localstorage';
 import { useEffect, useState } from 'react';
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from 'recharts';
 const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
 
 
@@ -17,7 +17,8 @@ const PagesToRead = () => {
   }, []);
 
   const chartData = readBooks.map(book => ({
-    name: book.bookName.slice(0,10), 
+    // name: book.bookName.slice(0,10), 
+    name: book.bookName, 
     pages: book.totalPages, 
   }));
 
@@ -39,7 +40,7 @@ const PagesToRead = () => {
 
       //custom
   return (
-    <div className='text-center'>
+    <div className='text-center mt-10'>
       {/* <BarChart
         width={500}
         height={300}
@@ -59,9 +60,9 @@ const PagesToRead = () => {
       </BarChart> */}
 
           {/* custom */}
-
+          
           <BarChart
-      width={500}
+      width={1200}
       height={300}
       data={chartData}
       margin={{
@@ -80,6 +81,7 @@ const PagesToRead = () => {
         ))}
       </Bar>
     </BarChart>
+    
 
 
 

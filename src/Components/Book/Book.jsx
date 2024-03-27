@@ -8,10 +8,10 @@ const Book = ({book}) => {
     return (
         <div>
 
-            <div>
+            <div className=" ">
             <Link to={`/book/${id}`}>
             <div className="card w-full h-[581px] rounded-2xl border-[#13131326] bg-base-100 shadow-xl">
-                <figure><img className="bg-[#F3F3F3] h-full rounded-3xl w-full p-2" src={image} alt="Shoes" /></figure>
+                <figure><img className="bg-[#F3F3F3] h-full rounded-3xl lg:w-full p-2" src={image} alt="Shoes" /></figure>
                 <div className="card-body">
                 <div className='flex'>
                     {
