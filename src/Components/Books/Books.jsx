@@ -1,5 +1,6 @@
 import { IoPeopleOutline } from "react-icons/io5";
 import { MdOutlineContactPage } from "react-icons/md";
+import { CiLocationOn } from "react-icons/ci";
 
 import './Books.css'
 const Books = ({books}) => {
@@ -15,6 +16,22 @@ const Books = ({books}) => {
                         <h2 className="card-title">{books.bookName}</h2>
                         <p>By:{books.author}</p>
                         <p className='text-4xl'>Tags:</p>
+
+                         <div className='flex'>
+                        <h1 className='flex gap-4 items-center'><span className="text-base font-bold py-4">Tags:</span>
+                        {
+                        books?.tags?.map((tag) => <p className='flex'><span><button className="btn rounded-[30px] text-[#23BE0A]  mr-3 radius-[30px]">#{tag}</button></span></p>)
+                    }
+                        </h1>
+
+                        <div className="flex items-center">
+                            <h2><CiLocationOn /></h2>
+                            <h2>Year of Publishing:{books.yearOfPublishing}</h2>
+                        </div>
+                    </div>   
+
+
+
                         <div className="flex gap-4 items-center">
                             <div className="flex items-center">
                                 <h1><IoPeopleOutline /></h1>
