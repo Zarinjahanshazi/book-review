@@ -17,6 +17,7 @@ import ListedBooks from './Components/ListedBooks/ListedBooks.jsx';
 import PagesToRead from './Components/PagesToRead/PagesToRead.jsx';
 import BookDetails from './Components/BookDetails/BookDetails.jsx';
 import AboutUs from './Components/AboutUs/AboutUs.jsx';
+import CustomerReviews from './Components/CustomerReviews/CustomerReviews.jsx';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path:'/pagesToRead',
         element:<PagesToRead></PagesToRead>
+      },
+      {
+        path: '/customerReviews',
+        element:<CustomerReviews></CustomerReviews>
       },
       {
         path: '/aboutUs',
