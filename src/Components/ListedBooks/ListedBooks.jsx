@@ -4,6 +4,7 @@ import 'react-tabs/style/react-tabs.css';
 import { getDataFromLocalRead, getDataFromLocalWishList } from '../utility/localstorage';
 import Books from '../Books/Books';
 import WishBook from '../WishBook/WishBook';
+import { IoMdCheckmark } from "react-icons/io";
 
 const ListedBooks = () => {
   const [readBooks, setReadBooks] = useState([]);
@@ -42,8 +43,16 @@ const ListedBooks = () => {
   return (
     <div>
       <div className='text-center'>
+
+        <div className='max-w-6xl h-[100px] rounded-2xl my-8 bg-[#1313130C]'>
+            <h2 className='text-[#131313] text-center py-8 font-bold text-2xl'>Books</h2>
+
+        </div>
         <details className="dropdown">
-          <summary className="m-1 btn">Sort By</summary>
+          
+            <summary className="m-1 btn bg-[#23BE0A] text-white flex"><span>Sort By</span> <span className='text-2xl'><IoMdCheckmark /></span> </summary>
+            
+         
           <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
             <li><a onClick={sortByRating}>Rating</a></li>
             <li><a onClick={sortByPages}>Number of Pages</a></li>
