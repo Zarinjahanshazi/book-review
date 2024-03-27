@@ -74,7 +74,7 @@ const ListedBooks = () => {
           </div>
         </TabPanel>
         <TabPanel>
-          <h2>wishListBooks:{wishListBooks.length}</h2>
+          {/* <h2>wishListBooks:{wishListBooks.length}</h2> */}
 
           <div>
             {wishListBooks.map(wishBook => <WishBook key={wishBook.id} wishBook={wishBook}></WishBook>)}

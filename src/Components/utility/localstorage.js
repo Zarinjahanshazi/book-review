@@ -39,8 +39,8 @@ export const saveDataToLocalStorageWishList = (book) => {
         } else {
             saveDataWishList.push(book);
             localStorage.setItem("wishBooks", JSON.stringify(saveDataWishList));
-            alert("Added to WishList");
-            // toast("Added to WishList!");
+            // alert("Added to WishList");
+            toast("Added to WishList!");
         }
     }
 };
