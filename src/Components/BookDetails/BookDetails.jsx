@@ -70,7 +70,7 @@ const BookDetails = () => {
                     </div>
 
                     <div className="py-4">
-                    <button onClick={handleRead} className="btn btn-outline mr-5 text-black btn-accent">Read</button>
+                    <button onClick={handleRead} className="btn btn-outline mr-5 border-black text-black btn-accent">Read</button>
                     <button onClick={handleWishList} className="btn btn-outline text-white btn-accent">Wishlist</button>
                     <ToastContainer />
                     </div>
