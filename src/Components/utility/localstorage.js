@@ -36,7 +36,7 @@ export const saveDataToLocalStorageWishList = (book) => {
     else{
         if (existWish) {
             
-            toast("Already in the WishList")
+            toast("Already in the WishList!")
         } else {
             saveDataWishList.push(book);
             localStorage.setItem("wishBooks", JSON.stringify(saveDataWishList));
